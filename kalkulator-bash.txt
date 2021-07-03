@@ -1,0 +1,38 @@
+#!/bin/bash
+
+clear
+# tampilan
+echo
+figlet kalkulator
+echo -e "÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷"    echo -e " Author = Mr Virus Spm"
+echo -e " Team   = Mafia Teknologi Indonesia"
+echo -e "÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷"
+echo
+# daftar
+echo -e "[1] penjumlahan"
+echo -e "[2] pengurangan"
+echo -e "[3] perkalian"
+echo -e "[4] pembagian"
+echo
+read -p "pilih => " gas
+# pertama
+read -p "angka pertama => " satu
+# kedua
+read -p "angka kedua => " dua
+if [ $gas = "1" ]
+then
+    echo $(( satu + dua ))
+# (+) adalah tanda tambah
+elif [ $gas = "2" ]
+then
+    echo $(( satu - dua ))
+# (-) adalah tanda kurang
+elif [ $gas = "3" ]
+then
+    echo $(( satu * dua ))
+# (*) adalah tanda kali
+elif [ $gas = "4" ]
+then
+    echo $(( satu / dua ))
+# (/) adalah tanda bagi
+fi
