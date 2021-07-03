@@ -4,7 +4,8 @@ clear
 # tampilan
 echo
 figlet kalkulator
-echo -e "÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷"    echo -e " Author = Mr Virus Spm"
+echo -e "÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷"
+echo -e " Author = Mr Virus Spm"
 echo -e " Team   = Mafia Teknologi Indonesia"
 echo -e "÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷"
 echo
